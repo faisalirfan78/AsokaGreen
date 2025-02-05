@@ -12739,6 +12739,12 @@ header.masthead {
   background-size: cover;
 }
 
+.logo img {
+  border: 1px solid red;
+  width: 30%;
+  height: 20%;
+}
+
 header.masthead h1,
 header.masthead .h1 {
   font-size: 2.25rem;
