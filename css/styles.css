@@ -280,7 +280,7 @@ sup {
 }
 
 a {
-  color: var(--bs-link-color);
+  color: var(--bs-green);
   text-decoration: underline;
 }
 
@@ -12655,6 +12655,10 @@ hr.divider-light {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background-color: #fff;
   transition: background-color 0.2s ease;
+  -webkit-transition: background-color 0.2s ease;
+  -moz-transition: background-color 0.2s ease;
+  -ms-transition: background-color 0.2s ease;
+  -o-transition: background-color 0.2s ease;
 }
 
 #mainNav .navbar-brand {
@@ -12812,9 +12816,14 @@ header.masthead .h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(244, 98, 58, 0.9);
+  background: rgba(10, 98, 58, 0.9);
+  /* background: rgba(244, 98, 58, 0.9); */
   transition: opacity 0.25s ease;
   text-align: center;
+  -webkit-transition: opacity 0.25s ease;
+  -moz-transition: opacity 0.25s ease;
+  -ms-transition: opacity 0.25s ease;
+  -o-transition: opacity 0.25s ease;
 }
 
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category,
